@@ -1,0 +1,104 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# test upload"
+      }
+    ],
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Upload File",
+        "description": "",
+        "id": "open-home-page-and-upload-file;upload-file",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14111670200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open home page \"\u003cbrowser\u003e\"",
+            "match": {
+              "location": "WeTransferHomePage.open_Home_page(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "chrome",
+                  "https://wetransfer.com/"
+                ],
+                "line": 5
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1589112200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on upload",
+            "match": {
+              "location": "WeTransferHomePage.click_on_upload(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "manju.ostwal88@gmail.com",
+                  "manju.ostwal5@gmail.com",
+                  "sample file uploaded"
+                ],
+                "line": 7
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8040927100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "file uploaded",
+            "match": {
+              "location": "WeTransferHomePage.file_uploaded()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23979865200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Email code verification",
+            "match": {
+              "location": "WeTransferHomePage.Email_code_verification(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "manju.ostwal88@gmail.com",
+                  "leolovesmanju"
+                ],
+                "line": 10
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "open home page and upload file",
+    "description": "",
+    "id": "open-home-page-and-upload-file",
+    "keyword": "Feature",
+    "uri": "src/test/java/wetransfer/wetransfer/cucumberReport.feature"
+  }
+]

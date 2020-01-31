@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="47.721575">
+<testcase classname="open home page and upload file" name="Upload File" time="47.721575">
+<system-out><![CDATA[Given Open home page "<browser>"............................................passed
+When click on upload........................................................passed
+When file uploaded..........................................................passed
+Then Email code verification................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
